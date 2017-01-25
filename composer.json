@@ -1,0 +1,12 @@
+{
+    "name": "ymc/asset-bundle",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "^2.7 || ^3.2"
+    },
+    "autoload": {
+        "psr-4": {"YMC\\AssetBundle\\": "src/"}
+    }
+}
